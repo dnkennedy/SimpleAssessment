@@ -1,0 +1,23 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Protocol",
+  "@id": "simple.jsonld",
+  "prefLabel": "tutorial resource example",
+  "description": "a study to add repronim training resources",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1"
+  "landingPage": {
+      "@id": "README.md",
+      "@language": "en"
+    },
+  "ui": {
+    "addProperties": [
+      {
+        "isAbout": "rl:PHQ-9/PHQ9_schema",
+        "variableName": "PHQ9_schema",
+        "prefLabel": { "en": "Depression" }
+      }
+    ],
+    "order": ["rl:PHQ-9/PHQ9_schema"]
+  }
+}
