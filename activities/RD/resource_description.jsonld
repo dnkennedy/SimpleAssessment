@@ -6,5 +6,16 @@
   "description": "Training Resource Description form",
   "schemaVersion": "1.0.0-rc1",
   "version": "0.0.1",
-  "preamble": "Please indicate the following properties for the Training resource you are describing"
+  "preamble": "Please indicate the following properties for the Training resource you are describing",
+  "ui": {
+      "order": ["items/title.jsonld"],
+      "shuffle": false,
+      "addProperties": [
+        {
+          "variableName": "title",
+          "isAbout": "items/title.jsonld",
+          "isVis": true
+        }
+      ]
+    }
 }
