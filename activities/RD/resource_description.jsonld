@@ -1,0 +1,10 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Activity",
+  "@id": "resource_description.jsonld",
+  "prefLabel": "Training Resource Description form",
+  "description": "Training Resource Description form",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "preamble": "Please indicate the following properties for the Training resource you are describing"
+}
