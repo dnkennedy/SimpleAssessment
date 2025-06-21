@@ -17,14 +17,20 @@
     }
     "ui": {
       "addProperties": [
+        {
+          "isAbout": "rl:PHQ-9/PHQ9_schema",
+          "variableName": "PHQ9_schema",
+          "prefLabel": { "en": "Depression" }
+        },
           {
-          "isAbout": "../activities/EHI/edinburgh_handedness_inventory_short.jsonld",
-          "variableName": "EHI_short_schema",
-          "prefLabel": { "en": "EHI" }
+          "isAbout": "../activities/RD/resource_description.jsonld",
+          "variableName": "RD_schema",
+          "prefLabel": { "en": "RD" }
         }
       ],
       "order": [
+          "rl:PHQ-9/PHQ9_schema",
           "RD_schema"
           ]
-	}
+    }
 }
