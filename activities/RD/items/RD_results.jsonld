@@ -1,0 +1,18 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "RD_results.jsonld",
+  "prefLabel": "RD results",
+  "description": "Resource Description for the inventory",
+  "schemaVersion": "1.0.0-rc1",
+  "version": "0.0.1",
+  "ui": {
+    "inputType": "number",
+    "readonlyValue": true
+  },
+  "responseOptions": {
+    "valueType": "xsd:integer",
+    "minValue": -100,
+    "maxValue": 100
+  }
+}
